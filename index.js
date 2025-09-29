@@ -21,7 +21,7 @@ const { spawn } = require("child_process");
 const log = require("./logger/log.js");
 
 function startProject() {
-	const child = spawn("node", ["Goat.js"], {
+	const child = spawn("node", ["Metoushela.js"], {
 		cwd: __dirname,
 		stdio: "inherit",
 		shell: true
